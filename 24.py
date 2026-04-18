@@ -15,7 +15,7 @@ lst = list(map(int, input("Enter the list: ").split()))
 freq = {}
 duplicates = []
 for i in lst:
- if freq[i] = freq.get(i,0)+1
+  freq[i] = freq.get(i,0)+1
 
 for key in freq:
  if freq[key] > 1:
