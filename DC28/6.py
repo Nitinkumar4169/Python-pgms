@@ -9,7 +9,7 @@ class Student:
     def getname(self):
         return self.__name
         
-s1 = Student("nitin")
+s1 = Student("name")
 
 s1.setname("nitin")
 print(s1.getname())
