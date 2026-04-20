@@ -1,6 +1,21 @@
 #Wap to create class with private variable and access them using method
+class Student:
+    def __init__(self,name):
+        self.__name = name #Private variable
+        
+    def setname(self,name):
+        self.__name = name
+        
+    def getname(self):
+        return self.__name
+        
+s1 = Student("name")
+
+s1.setname("nitin")
+print(s1.getname())
 
 
-
+        
+    
         
     
