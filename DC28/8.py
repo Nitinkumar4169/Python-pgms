@@ -9,6 +9,7 @@ class School():
 
 #object of school
 s = School("chaman bhartiya")
+print(s.name)
 
 #obj of student
 ans = School.Student(76)
