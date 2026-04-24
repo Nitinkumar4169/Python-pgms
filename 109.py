@@ -4,4 +4,4 @@ count = 0
 for i in s:
   count += 1
 
-print("Number of words in a sentence is: "count)  
+print("Number of words in a sentence is: ",count)  
