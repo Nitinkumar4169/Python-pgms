@@ -1,0 +1,5 @@
+#126.wap to calculate surface area of a cylinder S.A = 2πr(r+h)
+r = int(input("Enter the radius: "))
+h = int(input("Enter the height: "))
+result = 2*3.14*r*(r+h)
+print("surface area of a cylinder is: ", result)
